@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    background-color: #8dc63f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+h1,
+ul {
+    margin: 0;
+}
+
+ul {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 24px;
+    color: #39930d;
+    margin-bottom: 17px;
+}
+
+.wrapper {
+    max-width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo b {
+    display: block;
+    font-size: 44px;
+}
+
+.logo p,
+.contacts a {
+    font-size: 22px;
+    color: #39930d;
+}
+
+.ball {
+    margin-left: 33px;
+    animation: ball 2s linear infinite alternate;
+}
+
+@keyframes ball {
+    0%, 100% {
+        transform: rotate(0);
+    }
+
+    10% {
+        transform: rotate(36deg);
+    }
+    20% {
+        transform: rotate(72deg);
+    }
+    30% {
+        transform: rotate(108deg);
+    }
+}
+
+.logo i,
+.contacts p {
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.contacts p {
+    font-style: italic;
+    margin: 7px 0;
+}
+
+.contacts {
+    text-align: right;
+}
+
+.stadium {
+    width: 100%;
+}
+
+.main {
+    padding: 25px 0 28px;
+}
+
+.info {
+    max-width: 600px;
+}
+
+.info p {
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #343434;
+}
+
+.menu p {
+    padding: 16px 0 11px 20px;
+    background-color: #39930d;
+    color: white;
+    font-size: 18px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
+}
+
+.footer {
+    display: flex;
+    padding: 17px 0 14px 16px;
+    margin: 0 -15px;
+    background-color: #39930d;
+    color: #ffffff;
+    font-size: 14px;
+}
